@@ -1,0 +1,3 @@
+#!/bin/bash
+vbutil_kernel --repack repacked2 --signprivate kernel_data_key.vbprivk --oldblob kernel2 --config config.txt
+vbutil_kernel --verify repacked2 --verbose

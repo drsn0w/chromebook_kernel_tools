@@ -1,0 +1,6 @@
+#!/bin/bash
+
+vbutil_kernel --verify repacked2 --verbose
+echo -n "Press enter to flash kernel: "
+read ignored
+sudo dd if=repacked2 of=/dev/mmcblk0p2
