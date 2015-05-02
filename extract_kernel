@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo dd if=/dev/mmcblk0p2 of=kernel2
+
+vbutil_kernel --verify kernel2 --verbose | tail -1 > config.txt
