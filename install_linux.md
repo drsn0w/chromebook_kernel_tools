@@ -37,6 +37,7 @@ Currently this guide is only for Linux.
 4. `cd ~/Downloads`
 5. `tar -xvsf repo.tarball.tar.gz`
 6. `cd repo-directory`
+7. `cp /usr/share/vboot/devkeys/kernel_data_key.vprivk ./`
 7. `bash extract_kernel`
 8. `echo "root=/dev/sda1 ro rootwait" > config.txt`
 9. `bash repack_kernel`
@@ -46,6 +47,7 @@ Currently this guide is only for Linux.
 13. Plug in the Arch Linux installer USB you created earlier
 14. Mount the USB drive
 13. `cp -R /usr/lib/modules/3.10.18/* /usb/mount/point/usr/lib/3.10.18/`
+14. `cp /usr/share/vboot/devkeys/kernel_data_key.vprivk /usb/mount/point`
 13. Shutdown your Chromebook.
 
 ## Boot the installation medium on your Chromebook
@@ -67,6 +69,7 @@ Currently this guide is only for Linux.
 6. `pacman -S git`
 7. `git clone https://github.com/drsn0w/chromebook_kernel_tools.git`
 8. `cd chromebook_kernel_tools`
+9. `cp /kernel_data_key.vprivk ./`
 9. `./extract_kernel`
 10. `echo "root=/dev/mmcblk0p1 ro rootwait" > config.txt`
 11. `./repack_kernel`
