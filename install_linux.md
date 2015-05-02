@@ -71,6 +71,7 @@ Currently this guide is only for Linux.
 10. `echo "root=/dev/mmcblk0p1 ro rootwait" > config.txt`
 11. `./repack_kernel`
 12. `./flash_kernel`
+13. `cp -R /usr/lib/modules/3.10.18/* /mnt/usr/lib/modules/3.10.18/`
 13. `umount /mnt`
 14. `shutdown -h now`
 15. Once the Chromebook powers off, remove the flashdrive.
