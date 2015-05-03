@@ -2,6 +2,9 @@
 Kernel repacking and flashing tools for Chromebook.
 Please note that these tools do not stop you from flashing a bad file to your Chromebook, so be careful and have some sort of CrOS recovery media handy.
 
+**Changelog**
+05/02/2015: Initial commit & add basic Linux installation guide.
+
 
 ## Requirements
 
