@@ -9,7 +9,7 @@ Please note that these tools do not stop you from flashing a bad file to your Ch
 
 ## Requirements
 
-- vbutil_kernel in $PATH (`sudo apt-get install vboot-tools` on Debian and Ubuntu, Chrome OS developer ships with it)
+- vbutil_kernel in $PATH (`sudo apt-get install vboot-utils` on Debian and Ubuntu, `vboot-utils` in the AUR, Chrome OS ships with it)
 - kernel_data_key.vprivk from your Chromebook (`/usr/share/vboot/devkeys/kernel_data_key.vprivk`, place in directory with scripts)
 
 ## extract_kernel
