@@ -1,5 +1,7 @@
 
-# Installing Arch Linux on ASUS C300
+# Installing Arch Linux on Chromebooks That Don't Support SeaBios
+
+**THIS GUIDE IS NOT YET COMPLETE. IN ITS CURRENT STATE IT SHOULD GET YOU TO A BOOTING ARCH LINUX INSTALLATION WITH A FEW ISSUES. SOLUTIONS TO THESE ISSUES WILL BE ADDED SOON**
 
 This guide details the process I used to install Arch Linux on my ASUS C300. Please note that some issues may arise becuase (at the moment) we can only use the kernel provided by Chrome OS, which is version 3.10. 
 Currently this guide is only for Linux.
