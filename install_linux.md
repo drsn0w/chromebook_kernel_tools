@@ -36,6 +36,7 @@ Currently this guide is only for Linux.
 1. Make sure your Chromebook is in Developer Mode. If you're not sure, it probably isn't. Google how to do this, as it is outside the scope of these instructions. 
 2. Download the tarball of this repo (link here)
 3. Open Crosh and type `shell`
+4. `sudo crossystem dev_boot_signed_only=0`
 4. `cd ~/Downloads`
 5. `tar -xvsf repo.tarball.tar.gz`
 6. `cd repo-directory`
