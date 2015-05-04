@@ -82,3 +82,6 @@ Currently this guide is only for Linux.
 15. Once the Chromebook powers off, remove the flashdrive.
 
 
+**AFTER YOU FINISH, PLEASE FILL OUT THE FORM LOCATED [HERE](https://docs.google.com/forms/d/1yEIaIknRrFGd1RV3wPgTnfNkZ0Ag4AvDK6Z0tR7E0Mc/viewform?usp=send_form) TO MAKE IT EASIER FOR ME TO IRON OUT ANY ISSUES. THANK YOU**
+
+
